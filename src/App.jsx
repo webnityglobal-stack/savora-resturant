@@ -17,15 +17,11 @@ import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import OrderSuccess from "./pages/OrderSuccess";
 
-// Scroll to top when changing pages
 function ScrollToTop() {
     const { pathname } = useLocation();
 
     useEffect(() => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-        });
+        window.scrollTo({ top: 0, behavior: "smooth" });
     }, [pathname]);
 
     return null;
@@ -35,7 +31,6 @@ export default function App() {
     return (
         <CartProvider>
             <ScrollToTop />
-
             <Navbar />
 
             <main>
@@ -46,10 +41,10 @@ export default function App() {
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/reservations" element={<Reservations />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="*" element={<Home />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/checkout" element={<Checkout />} />
                     <Route path="/order-success" element={<OrderSuccess />} />
+                    <Route path="*" element={<Home />} />
                 </Routes>
             </main>
 
