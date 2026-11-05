@@ -82,7 +82,7 @@ export default function About() {
 
           <div className="principles">
             <article>
-              <span>01</span>
+        
               <h3>Honest food</h3>
               <p>
                 Good ingredients, prepared with care. Nothing complicated,
@@ -91,7 +91,7 @@ export default function About() {
             </article>
 
             <article>
-              <span>02</span>
+          
               <h3>Open-hearted hosting</h3>
               <p>
                 A friendly hello, a thoughtful detail and a seat saved
@@ -100,7 +100,7 @@ export default function About() {
             </article>
 
             <article>
-              <span>03</span>
+            
               <h3>Better together</h3>
               <p>
                 Local partnerships and seasonal choices make our table richer.

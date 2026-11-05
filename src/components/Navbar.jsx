@@ -46,16 +46,17 @@ export default function Navbar() {
 
         {/* Desktop Actions */}
         <div className="nav-actions">
-          <Link className="nav-cta" to="/reservations">
-            Book a Table
-            <ArrowUpRight size={16} />
-          </Link>
-
           <Link to="/cart" className="nav-cart">
             <ShoppingCart size={19} />
             <span>Cart</span>
             <b>{cartCount}</b>
           </Link>
+          
+          <Link className="nav-cta" to="/reservations">
+            Book a Table
+            <ArrowUpRight size={16} />
+          </Link>
+
         </div>
 
         {/* Mobile Toggle */}
@@ -84,15 +85,6 @@ export default function Navbar() {
           </nav>
 
           <Link
-            className="nav-cta mobile-cta"
-            to="/reservations"
-            onClick={closeMenu}
-          >
-            Book a Table
-            <ArrowUpRight size={17} />
-          </Link>
-
-          <Link
             to="/cart"
             className="nav-cart mobile-cart"
             onClick={closeMenu}
@@ -101,6 +93,16 @@ export default function Navbar() {
             <span>Cart</span>
             <b>{cartCount}</b>
           </Link>
+
+          <Link
+            className="nav-cta mobile-cta"
+            to="/reservations"
+            onClick={closeMenu}
+          >
+            Book a Table
+            <ArrowUpRight size={17} />
+          </Link>
+
         </div>
 
       </div>
