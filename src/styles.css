@@ -1235,3 +1235,363 @@
     letter-spacing: 1.5px;
   }
 }
+
+/* ==============================================
+   SAVORA WEBSITE - GLOBAL FONT SIZE UPDATE
+   ALL PAGES | DESKTOP + MOBILE
+   ============================================== */
+
+/* GLOBAL */
+body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* MAIN HEADINGS */
+.hero h1 {
+  font-size: clamp(64px, 7vw, 96px) !important;
+}
+
+.page-hero h1 {
+  font-size: clamp(52px, 6vw, 74px) !important;
+}
+
+.intro-copy h2,
+.values-copy h2,
+.story-text h2,
+.booking-info h2,
+.contact-copy h2 {
+  font-size: clamp(42px, 4.5vw, 54px) !important;
+}
+
+.section-heading h2 {
+  font-size: clamp(38px, 4vw, 48px) !important;
+}
+
+.quote-band h2 {
+  font-size: clamp(46px, 5vw, 64px) !important;
+}
+
+/* PARAGRAPHS */
+p,
+.hero-content > p,
+.page-hero p,
+.intro-copy p,
+.values-copy > p,
+.story-text p,
+.booking-info > p,
+.contact-copy > p,
+.section-heading p,
+.principles p {
+  font-size: 17px !important;
+  line-height: 1.8;
+}
+
+/* SECTION LABELS */
+.eyebrow {
+  font-size: 16px !important;
+}
+
+.hero-note {
+  font-size: 12px !important;
+}
+
+.photo-caption {
+  font-size: 13px !important;
+}
+
+/* NAVIGATION */
+.nav-links a,
+.mobile-links a {
+  font-size: 18px !important;
+}
+
+.nav-cta,
+.nav-cart {
+  font-size: 15px !important;
+}
+
+/* BUTTONS */
+.btn,
+button,
+.add-cart-btn,
+.checkout-button,
+.checkout-btn,
+.place-order-btn,
+.mobile-cta {
+  font-size: 16px !important;
+}
+
+/* LINKS */
+.text-link,
+.under-link,
+.back-menu,
+.edit-cart-link,
+.success-home-link {
+  font-size: 16px !important;
+}
+
+/* MENU CARDS */
+.dish-info h3 {
+  font-size: 22px !important;
+}
+
+.dish-info p {
+  font-size: 14px !important;
+}
+
+.dish-info strong {
+  font-size: 16px !important;
+}
+
+.dish-tag,
+.dish-category {
+  font-size: 12px !important;
+}
+
+/* VALUES */
+.value-list b {
+  font-size: 17px !important;
+}
+
+.value-list small {
+  font-size: 14px !important;
+}
+
+/* ABOUT PAGE */
+.principles h3 {
+  font-size: 25px !important;
+}
+
+.principles article > span {
+  font-size: 14px !important;
+}
+
+/* GALLERY */
+.gallery-item figcaption {
+  font-size: 19px !important;
+}
+
+/* RESERVATION FORM */
+.booking-card > h3 {
+  font-size: 29px !important;
+}
+
+.reservation-form label {
+  font-size: 14px !important;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+  font-size: 15px !important;
+}
+
+.form-note {
+  font-size: 13px !important;
+}
+
+/* CONTACT */
+.contact-detail b,
+.visit-detail b {
+  font-size: 16px !important;
+}
+
+.contact-detail p,
+.visit-detail small {
+  font-size: 14px !important;
+}
+
+/* CART PAGE */
+.cart-page-heading h1,
+.checkout-heading h1 {
+  font-size: 52px !important;
+}
+
+.cart-products-heading h2,
+.order-summary h2,
+.checkout-summary h2 {
+  font-size: 27px !important;
+}
+
+.cart-product-details h3,
+.cart-item-info h3 {
+  font-size: 21px !important;
+}
+
+.cart-product-details p,
+.cart-item-info p {
+  font-size: 14px !important;
+}
+
+.summary-line,
+.summary-total,
+.cart-total,
+.cart-count,
+.item-total {
+  font-size: 15px !important;
+}
+
+/* CHECKOUT PAGE */
+.checkout-card-title h2 {
+  font-size: 25px !important;
+}
+
+.checkout-card-title p {
+  font-size: 14px !important;
+}
+
+.checkout-fields label {
+  font-size: 14px !important;
+}
+
+.checkout-fields input,
+.checkout-fields textarea {
+  font-size: 15px !important;
+}
+
+.payment-option b {
+  font-size: 16px !important;
+}
+
+.payment-option small {
+  font-size: 13px !important;
+}
+
+/* ORDER SUCCESS PAGE */
+.success-card > h1 {
+  font-size: 46px !important;
+}
+
+.success-detail-heading h2 {
+  font-size: 24px !important;
+}
+
+.success-item h3 {
+  font-size: 18px !important;
+}
+
+.success-message,
+.success-address p,
+.success-address small {
+  font-size: 14px !important;
+}
+
+/* FOOTER */
+.footer h4 {
+  font-size: 20px !important;
+}
+
+.footer p,
+.footer-grid > div > a:not(.brand) {
+  font-size: 14px !important;
+}
+
+.footer-bottom {
+  font-size: 12px !important;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 680px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  .hero h1 {
+    font-size: 53px !important;
+  }
+
+  .page-hero h1 {
+    font-size: 43px !important;
+  }
+
+  .intro-copy h2,
+  .values-copy h2,
+  .story-text h2,
+  .booking-info h2,
+  .contact-copy h2 {
+    font-size: 37px !important;
+  }
+
+  .section-heading h2 {
+    font-size: 32px !important;
+  }
+
+  .quote-band h2 {
+    font-size: 42px !important;
+  }
+
+  p,
+  .hero-content > p,
+  .page-hero p,
+  .intro-copy p,
+  .values-copy > p,
+  .story-text p,
+  .booking-info > p,
+  .contact-copy > p,
+  .section-heading p {
+    font-size: 15px !important;
+  }
+
+  .eyebrow {
+    font-size: 13px !important;
+  }
+
+  .nav-links a,
+  .mobile-links a {
+    font-size: 16px !important;
+  }
+
+  .btn,
+  button,
+  .add-cart-btn {
+    font-size: 15px !important;
+  }
+
+  .dish-info h3 {
+    font-size: 21px !important;
+  }
+
+  .dish-info p {
+    font-size: 14px !important;
+  }
+
+  .values-copy h2 {
+    font-size: 37px !important;
+  }
+
+  .cart-page-heading h1,
+  .checkout-heading h1 {
+    font-size: 38px !important;
+  }
+
+  .success-card > h1 {
+    font-size: 34px !important;
+  }
+
+  .gallery-item figcaption {
+    font-size: 15px !important;
+  }
+
+  .reservation-form label,
+  .checkout-fields label {
+    font-size: 13px !important;
+  }
+
+  .reservation-form input,
+  .reservation-form select,
+  .reservation-form textarea,
+  .checkout-fields input,
+  .checkout-fields textarea {
+    font-size: 14px !important;
+  }
+
+  .footer h4 {
+    font-size: 18px !important;
+  }
+
+  .footer p {
+    font-size: 13px !important;
+  }
+}
