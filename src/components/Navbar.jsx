@@ -5,9 +5,9 @@ import { Menu, X, ArrowUpRight, ShoppingCart } from "lucide-react";
 import { useCart } from "../context/CartContext";
 
 const links = [
-  ["Home", "/"],
-  ["Our Story", "/about"],
   ["Menu", "/menu"],
+  // ["Home", "/"],
+  ["Our Story", "/about"],
   ["Gallery", "/gallery"],
   ["Contact", "/contact"],
 ];
